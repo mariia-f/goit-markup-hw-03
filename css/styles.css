@@ -145,10 +145,6 @@ address {
   margin-right: 156px;
 }
 .contacts-items {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .contacts .items:hover {
@@ -159,12 +155,12 @@ address {
 }
 /* #endregion */
 /* #region Hero */
-.first-section {
+.hero-section {
   background-color: #2e2f42;
   padding-bottom: 188px;
   padding-top: 188px;
 }
-.main-title {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -215,88 +211,88 @@ address {
   margin-bottom: 8px;
 }
 .studio-list-items {
+  display: flex;
+  flex-direction: column;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 /* #endregion */
+/* #region Team */
 .team-section {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.team-title {
+  margin-bottom: 72px;
+}
 .team-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
 }
 .team-list-items {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
-.team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-  padding-top: 32px;
+.team-items-descr {
+  padding: 32px 0;
 }
-.team-par {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.team-subtitle {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-text {
   color: #434455;
   text-align: center;
-  padding-top: 8px;
-  padding-bottom: 32px;
 }
+/* #endregion */
+/*  #region Portfolio */
 .portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.portfolio-title {
+  margin-bottom: 72px;
+}
 .portfolio-list {
-  margin-top: 72px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio-list-items .section-title {
-  padding-top: 32px;
+.portfolio-subtitle {
   text-align: left;
-  padding-left: 16px;
+  margin-bottom: 8px;
 }
-.portfolio-list-items .body-par {
-  margin-top: 8px;
-  margin-bottom: 32px;
+.portfolio-text {
   text-align: center;
   text-align: left;
-  padding-left: 16px;
 }
 .border-container {
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
-
+/* #endregion */
+/* #redion footer */
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-par {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.footer-logo {
+  display: block;
+  margin-bottom: 16px;
+}
+.footer-text {
   color: #f4f4fd;
   width: 264px;
-  margin-top: 16px;
 }
 .logo-light {
   color: #f4f4fd;
 }
+/* #endregion */
